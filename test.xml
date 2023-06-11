@@ -1,0 +1,18 @@
+<suite name="suite1">
+    <parameter name="url" value="https://www.facebook.com/%22/%3E
+    <parameter name="email" value="abc@gmail.com"/>
+    <parameter name="pwd" value="12324"/>
+
+    <test name="Test1">
+        <classes>
+            <class name="TestNGDemo">
+                <methods>
+                    <include name="methodC"/>
+                    <include name="method2"/>
+
+                </methods>
+            </class>
+        </classes>
+
+    </test>
+</suite>
